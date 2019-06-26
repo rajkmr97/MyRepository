@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Login with Valid Credentials",
+        "description": "",
+        "id": "login-myntra;login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11549883552,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Myntra Home Page",
+            "match": {
+              "location": "Login_StepDef.user_is_on_Myntra_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3180256344,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Navigate to Login Page",
+            "match": {
+              "location": "Login_StepDef.user_Navigate_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 785883742,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"ramkmrshiv@gmail.com\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ramkmrshiv@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 39
+                }
+              ],
+              "location": "Login_StepDef.user_enters_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1262840857,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User successfully Logged in",
+            "match": {
+              "location": "Login_StepDef.user_successfully_Logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Login with Valid Credentials",
+        "description": "",
+        "id": "login-myntra;login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8009686104,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Myntra Home Page",
+            "match": {
+              "location": "Login_StepDef.user_is_on_Myntra_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2969191811,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Navigate to Login Page",
+            "match": {
+              "location": "Login_StepDef.user_Navigate_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 479497655,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"baladharini@gmail.com\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baladharini@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Login_StepDef.user_enters_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 739574551,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User successfully Logged in",
+            "match": {
+              "location": "Login_StepDef.user_successfully_Logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Myntra",
+    "description": "",
+    "id": "login-myntra",
+    "keyword": "Feature",
+    "uri": "C:/Users/RAJKUMAR/eclipse-workspace/Cucumber/Myntra_BDD/Myntra_BDD/features/login.feature",
+    "tags": []
+  }
+]
