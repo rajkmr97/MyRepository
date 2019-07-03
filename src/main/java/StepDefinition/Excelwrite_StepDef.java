@@ -56,7 +56,7 @@ public class Excelwrite_StepDef {
 		System.out.println("Total count: "+total);
 		System.out.println(driver.getTitle());
 		Row newRow = sht.createRow(0);
-		newRow.createCell(0).setCellValue("Name");
+		newRow.createCell(0).setCellValue("Name"); 
 		newRow.createCell(1).setCellValue("Price");
 		for(int i=1; i<11;i++)
 		{
@@ -87,7 +87,7 @@ public class Excelwrite_StepDef {
 			//if(i==20) break;
 		}
 		
-		FileOutputStream out = new FileOutputStream(new File("D:\\Testing\\WriteExcel\\Myntra.xlsx"));
+		FileOutputStream out = new FileOutputStream(new File("C:\\Users\\RAJKUMAR\\eclipse-workspace\\Cucumber\\Myntra_BDD\\Myntra_BDD\\Excel_sheet\\Myntra.xlsx"));
 		work.write(out);
 		out.close();
 		driver.quit();

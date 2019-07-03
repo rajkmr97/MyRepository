@@ -44,7 +44,7 @@ public class Signup_StepDef {
 	@Then("User Enters Email, Name, Mobile Number, and Gender")
 	public void user_Enters_Email_Name_Mobile_Number_and_Gender() throws IOException {
 		
-		InputStream ExcelFileToRead = new FileInputStream("D:\\Testing\\ReadExcel\\Mynthra Signup_data.xlsx");
+		InputStream ExcelFileToRead = new FileInputStream("C:\\Users\\RAJKUMAR\\eclipse-workspace\\Cucumber\\Myntra_BDD\\Myntra_BDD\\Excel_sheet\\Mynthra Signup_data.xlsx");
 	    XSSFWorkbook  wb = new XSSFWorkbook(ExcelFileToRead);
 	    XSSFSheet sheet = wb.getSheetAt(0);
 	     
